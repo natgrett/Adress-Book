@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E0E520BE237B008D00CA198C /* iOS3-Pidhorodetska-Stoyanova */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iOS3-Pidhorodetska-Stoyanova"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E520BE237B008D00CA198C /* iOS3-Pidhorodetska */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iOS3-Pidhorodetska"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E520C1237B008D00CA198C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E0E520C8237B061600CA198C /* AddressCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressCard.swift; sourceTree = "<group>"; };
 		E0E520CA237B062B00CA198C /* AddressBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBook.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		E0E520B5237B008D00CA198C = {
 			isa = PBXGroup;
 			children = (
-				E0E520C0237B008D00CA198C /* iOS3-Pidhorodetska-Stoyanova */,
+				E0E520C0237B008D00CA198C /* iOS3-Pidhorodetska */,
 				E0E520BF237B008D00CA198C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,27 +53,27 @@
 		E0E520BF237B008D00CA198C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E0E520BE237B008D00CA198C /* iOS3-Pidhorodetska-Stoyanova */,
+				E0E520BE237B008D00CA198C /* iOS3-Pidhorodetska */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E0E520C0237B008D00CA198C /* iOS3-Pidhorodetska-Stoyanova */ = {
+		E0E520C0237B008D00CA198C /* iOS3-Pidhorodetska */ = {
 			isa = PBXGroup;
 			children = (
 				E0E520C1237B008D00CA198C /* main.swift */,
 				E0E520C8237B061600CA198C /* AddressCard.swift */,
 				E0E520CA237B062B00CA198C /* AddressBook.swift */,
 			);
-			path = "iOS3-Pidhorodetska-Stoyanova";
+			path = "iOS3-Pidhorodetska";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E0E520BD237B008D00CA198C /* iOS3-Pidhorodetska-Stoyanova */ = {
+		E0E520BD237B008D00CA198C /* iOS3-Pidhorodetska */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0E520C5237B008D00CA198C /* Build configuration list for PBXNativeTarget "iOS3-Pidhorodetska-Stoyanova" */;
+			buildConfigurationList = E0E520C5237B008D00CA198C /* Build configuration list for PBXNativeTarget "iOS3-Pidhorodetska" */;
 			buildPhases = (
 				E0E520BA237B008D00CA198C /* Sources */,
 				E0E520BB237B008D00CA198C /* Frameworks */,
@@ -83,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = "iOS3-Pidhorodetska-Stoyanova";
+			name = "iOS3-Pidhorodetska";
 			productName = "iOS3-Pidhorodetska-Stoyanova";
-			productReference = E0E520BE237B008D00CA198C /* iOS3-Pidhorodetska-Stoyanova */;
+			productReference = E0E520BE237B008D00CA198C /* iOS3-Pidhorodetska */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E0E520B9237B008D00CA198C /* Build configuration list for PBXProject "iOS3-Pidhorodetska-Stoyanova" */;
+			buildConfigurationList = E0E520B9237B008D00CA198C /* Build configuration list for PBXProject "iOS3-Pidhorodetska" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E0E520BD237B008D00CA198C /* iOS3-Pidhorodetska-Stoyanova */,
+				E0E520BD237B008D00CA198C /* iOS3-Pidhorodetska */,
 			);
 		};
 /* End PBXProject section */
@@ -269,7 +269,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E0E520B9237B008D00CA198C /* Build configuration list for PBXProject "iOS3-Pidhorodetska-Stoyanova" */ = {
+		E0E520B9237B008D00CA198C /* Build configuration list for PBXProject "iOS3-Pidhorodetska" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0E520C3237B008D00CA198C /* Debug */,
@@ -278,7 +278,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0E520C5237B008D00CA198C /* Build configuration list for PBXNativeTarget "iOS3-Pidhorodetska-Stoyanova" */ = {
+		E0E520C5237B008D00CA198C /* Build configuration list for PBXNativeTarget "iOS3-Pidhorodetska" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0E520C6237B008D00CA198C /* Debug */,
