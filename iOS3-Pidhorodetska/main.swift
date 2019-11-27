@@ -4,7 +4,7 @@
 //
 //  Created by Nataliia Pighorodetska on 12.11.19.
 //  Copyright © 2019 Nataliia Pighorodetska. All rights reserved.
-//
+// Project for university
 
 import Foundation
 
@@ -57,7 +57,7 @@ func printCard (_ card: AddressCard) {
 
 
 
-func UIfor (addressBook: AddressBook) -> AddressBook {
+func interfaceFor (addressBook: AddressBook){
     var userChoice1 = ""
     gameLoop: repeat {
         userChoice1 = read (withPrompt: "(E)ingabe, (S)uche, (L)iste oder (Q)uit?")
@@ -125,7 +125,6 @@ func UIfor (addressBook: AddressBook) -> AddressBook {
             
         }
     } while userChoice1 != "q" && userChoice1 != "Q"
-    return addressBook
 }
 
 
@@ -133,9 +132,8 @@ func UIfor (addressBook: AddressBook) -> AddressBook {
 var myFirstAddressBook = AddressBook()
 if let book = AddressBook.addressBook(fromFile: "book.plist")  {
     myFirstAddressBook = book
-    
 }
 
-var dialog = UIfor(addressBook: myFirstAddressBook)
-dialog.save(toFile: "book.plist")
+interfaceFor(addressBook: myFirstAddressBook)
+myFirstAddressBook.save(toFile: "book.plist")
 

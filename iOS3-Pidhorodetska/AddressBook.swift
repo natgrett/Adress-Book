@@ -42,9 +42,8 @@ class AddressBook: Codable {
         }
         return nil
     }
-//    Archivieren des Adressbuchs in eine Datei
+//    Archivieren des Adressbuchs in eine Datei   \(path)
     func save (toFile path: String) {
-        let path = "path.plist"
         let url = URL(fileURLWithPath: path)
         
         let encoder = PropertyListEncoder()
